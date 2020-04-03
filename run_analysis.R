@@ -70,4 +70,3 @@ head(avg_activity_subject)
 write.table(avg_activity_subject, file = "avgdata.txt", row.names = FALSE)
 
 knit("CodeBook.Rmd")
-knit("README.Rmd")
